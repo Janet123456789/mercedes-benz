@@ -25,7 +25,7 @@
           </button>
 
           <div class="collapse menu-mercedes navbar-collapse" id="navbarColor02">
-            <!--<ul class="navbar-nav mr-auto">
+<!--             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
                 <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
               </li>
@@ -38,7 +38,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Eventos</a>
               </li>
-            </ul>-->
+            </ul> -->
         <!--     <form class="form-inline my-2 my-lg-0">
               <input class="form-control mr-sm-2" type="text" placeholder="Search">
               <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
@@ -48,16 +48,16 @@
 
 
           		 <?php
-          		 wp_nav_menu( array(
-          				 'theme_location'    => 'primary',
-          				 'depth'             => 2,
-          				 'container'         => 'div',
-          				 'container_class'   => 'collapse navbar-collapse',
-          				 'container_id'      => 'bs-example-navbar-collapse-1',
-          				 'menu_class'        => 'nav navbar-nav',
-          				 'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-          				 'walker'            => new WP_Bootstrap_Navwalker()
-                  ));
+          		wp_nav_menu( array(
+                  'theme_location'    => 'primary',
+                  'depth'             => 2,
+                  'container'         => 'div',
+                  'container_class'   => 'collapse navbar-collapse',
+                  'container_id'      => 'bs-example-navbar-collapse-1',
+                  'menu_class'        => 'nav navbar-nav',
+                  'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                  'walker'            => new WP_Bootstrap_Navwalker(),
+              ) );
           		 ?>
         </nav>
     </header>

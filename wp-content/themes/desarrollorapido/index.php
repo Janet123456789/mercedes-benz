@@ -68,7 +68,7 @@
 
 <h2 class="titulo-servicios">Servicios Mercedes-Benz</h2>
 
-<!-- <div class="container"> -->
+<div class="container-fluid">
   <div class="row">
     <!-- informacion #1 -->
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 divs-cards">
@@ -116,7 +116,7 @@
       </div>
     </div>
   </div>
-<!-- </div>  -->
+</div> 
 
   
   <!-- CARDS DE LOS TIPOS DE VEHICULOS -->
@@ -125,8 +125,9 @@
 <!-- <div class="container"> -->
   
 
-    <div class="container">
-      <div class="row">
+    <div class="container-fluid">
+      <div class="card-deck row">
+
       <!-- card #1 -->
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 card tipos-cars">
           <img class="card-img-top" src="<?php bloginfo('template_directory'); ?>/assets/images/12.jpg" alt="<?php bloginfo('name'); ?>"/>
@@ -144,7 +145,7 @@
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 card tipos-cars">
           <img class="card-img-top" src="<?php bloginfo('template_directory'); ?>/assets/images/14.jpg" alt="<?php bloginfo('name'); ?>"/>
         <div class="card-block">
-                <h4 class="card-title titulo-tipos">No mires el cielo, tómalo contigo.</h4>
+                <h4 class="card-title titulo-tipos">No mires el cielo, tómalo contigo.</h4> <br>
                 <p class="card-text">El rostro único trae a la memoria los mejores recuerdos. SL: pocas iniciales son capaces de provocar tanta euforia. La legendaria tradición de los deportivos se traslada a nuestros días de forma dinámica con la más avanzada tecnología del tren de rodaje: el nuevo SL.</p>
         </div>
         <div class="card-footer">
@@ -156,7 +157,7 @@
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 card tipos-cars">
           <img class="card-img-top" src="<?php bloginfo('template_directory'); ?>/assets/images/13.jpg" alt="<?php bloginfo('name'); ?>"/>
         <div class="card-block">
-               <h4 class="card-title titulo-tipos">Obra maestra de inteligencia</h4>
+               <h4 class="card-title titulo-tipos">Obra maestra de inteligencia</h4> <br>
                 <p class="card-text">La Clase E Berlina encarna un estilo moderno y deportividad refinada, unidos a una ligereza asombrosa. Cada uno de sus rasgos obedece al principio de la claridad sensual.  Los mandos táctiles son inéditos en Mercedes-Benz, tienen buena sensibilidad y son fáciles de utilizar.</p>
         </div>
         <div class="card-footer">
